@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E336E18D-311D-42A2-B787-9B4DC6505C07"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EBD9068-82E7-4035-A606-A4816DB3AF90"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCrud/BackendAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "get(id:onCompletion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A6E8049-D3A0-4541-9A8A-651F6936CB70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsCrud/BackendAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "get(id:onCompletion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6A6E8049-D3A0-4541-9A8A-651F6936CB70 - 128976a9fc2ee5f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactsCrud.BackendAPI.get(id: Swift.String, onCompletion: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ContactsCrud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Downloads/iOS/2022/t3/ContactsCrud/ContactsCrud/BackendAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "451">
+               </Location>
+               <Location
+                  uuid = "6A6E8049-D3A0-4541-9A8A-651F6936CB70 - f75191fb3b2c1501"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; () in ContactsCrud.BackendAPI.get(id: Swift.String, onCompletion: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ContactsCrud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Downloads/iOS/2022/t3/ContactsCrud/ContactsCrud/BackendAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "303">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
