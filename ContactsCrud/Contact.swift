@@ -19,7 +19,7 @@ public class Contact : Codable{
     var photo : String
     var position : String
     var favorite : Bool
-    @ServerTimestamp var createdTime : Timestamp?   //If a POJO being written contains null, it will be replaced with a server-generated timestamp
+    @ServerTimestamp var createdTime : Timestamp?   //If an object being written contains null, it will be replaced with a server-generated timestamp
     @ServerTimestamp var lastUpdatedAt : Timestamp?
     
     init(firstname: String, lastname: String, email: String, phone: String, photo: String, position: String, favorite: Bool, createdTime: Timestamp? = nil, lastUpdatedAt: Timestamp? = nil) {

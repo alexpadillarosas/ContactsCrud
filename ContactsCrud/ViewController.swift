@@ -160,8 +160,12 @@ class ViewController: UIViewController {
                               , phone: self.phoneTextField.text!
                               , photo: self.photoTextField.text!
                               , position: self.positionTextField.text!
-                              , favorite: self.favoriteSwitch.isOn)
+                              , favorite: self.favoriteSwitch.isOn
+                            
+                                )
         contact.id = self.idTextField.text
+        
+        
         
         if service.updateContact(contact: contact) {
             showAlertMessage(title: "Success", message: "\(contact.firstname) \(contact.lastname) was udpated")
